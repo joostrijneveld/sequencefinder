@@ -38,3 +38,5 @@ lin_diff = linear_difference(numbers)
 
 if lin_diff is not None:
     print("Found a linear difference of {} on layer {}.".format(*lin_diff))
+else:
+    print("No sequence found.")
