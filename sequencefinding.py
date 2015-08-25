@@ -24,7 +24,7 @@ def constant_difference(a):
 
 def linear_difference(a):
     depth = 1
-    while len(a) > 0:
+    while len(a) > 2:
         cdiff = constant_difference(a)
         if cdiff is not None:
             return cdiff, depth
